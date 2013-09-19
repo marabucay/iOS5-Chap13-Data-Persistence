@@ -15,6 +15,8 @@
 		0087A92A17EACF5400F143D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0087A92917EACF5400F143D4 /* main.m */; };
 		0087A92E17EACF5400F143D4 /* BIDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0087A92D17EACF5400F143D4 /* BIDAppDelegate.m */; };
 		0087A93117EACF5400F143D4 /* Core_Data_Persistence.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0087A92F17EACF5400F143D4 /* Core_Data_Persistence.xcdatamodeld */; };
+		0087A93A17EAD5DB00F143D4 /* BIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0087A93817EAD5DB00F143D4 /* BIDViewController.m */; };
+		0087A93B17EAD5DB00F143D4 /* BIDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0087A93917EAD5DB00F143D4 /* BIDViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,9 @@
 		0087A92C17EACF5400F143D4 /* BIDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDAppDelegate.h; sourceTree = "<group>"; };
 		0087A92D17EACF5400F143D4 /* BIDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDAppDelegate.m; sourceTree = "<group>"; };
 		0087A93017EACF5400F143D4 /* Core_Data_Persistence.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Core_Data_Persistence.xcdatamodel; sourceTree = "<group>"; };
+		0087A93717EAD5DB00F143D4 /* BIDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDViewController.h; sourceTree = "<group>"; };
+		0087A93817EAD5DB00F143D4 /* BIDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDViewController.m; sourceTree = "<group>"; };
+		0087A93917EAD5DB00F143D4 /* BIDViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BIDViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +87,9 @@
 				0087A92D17EACF5400F143D4 /* BIDAppDelegate.m */,
 				0087A92F17EACF5400F143D4 /* Core_Data_Persistence.xcdatamodeld */,
 				0087A92417EACF5400F143D4 /* Supporting Files */,
+				0087A93717EAD5DB00F143D4 /* BIDViewController.h */,
+				0087A93817EAD5DB00F143D4 /* BIDViewController.m */,
+				0087A93917EAD5DB00F143D4 /* BIDViewController.xib */,
 			);
 			path = "Core Data Persistence";
 			sourceTree = "<group>";
@@ -148,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0087A92817EACF5400F143D4 /* InfoPlist.strings in Resources */,
+				0087A93B17EAD5DB00F143D4 /* BIDViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,6 +170,7 @@
 				0087A92A17EACF5400F143D4 /* main.m in Sources */,
 				0087A92E17EACF5400F143D4 /* BIDAppDelegate.m in Sources */,
 				0087A93117EACF5400F143D4 /* Core_Data_Persistence.xcdatamodeld in Sources */,
+				0087A93A17EAD5DB00F143D4 /* BIDViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
