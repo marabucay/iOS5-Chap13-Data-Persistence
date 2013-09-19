@@ -7,6 +7,7 @@
 //
 
 #import "BIDAppDelegate.h"
+#import "BIDViewController.h"
 
 @implementation BIDAppDelegate
 
@@ -14,11 +15,18 @@
 @synthesize managedObjectContext = __managedObjectContext;
 @synthesize managedObjectModel = __managedObjectModel;
 @synthesize persistentStoreCoordinator = __persistentStoreCoordinator;
+@synthesize rootController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    self.rootController = [[BIDViewController alloc] initWithNibName:@"BIDViewController" bundle:nil];
+    UIView *rootView = self.rootController.view;
+    CGRect viewFrame = rootView.frame;
+    viewFrame.origin.y += [UIApplication sharedApplication].statusBarFrame.size.height;
+    rootView.frame = viewFrame;
+    [self.window addSubview:rootView];
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

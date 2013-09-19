@@ -6,8 +6,8 @@
 //  Copyright (c) 2013 __MyCompanyName__. All rights reserved.
 //
 
-#import "BIDViewController.h"
 #import "BIDAppDelegate.h"
+#import "BIDViewController.h"
 
 @implementation BIDViewController
 @synthesize line1;
