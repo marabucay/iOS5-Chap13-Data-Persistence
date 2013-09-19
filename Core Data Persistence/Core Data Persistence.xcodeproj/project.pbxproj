@@ -1,0 +1,284 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0087A91C17EACF5400F143D4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0087A91B17EACF5400F143D4 /* UIKit.framework */; };
+		0087A91E17EACF5400F143D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0087A91D17EACF5400F143D4 /* Foundation.framework */; };
+		0087A92017EACF5400F143D4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0087A91F17EACF5400F143D4 /* CoreGraphics.framework */; };
+		0087A92217EACF5400F143D4 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0087A92117EACF5400F143D4 /* CoreData.framework */; };
+		0087A92817EACF5400F143D4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0087A92617EACF5400F143D4 /* InfoPlist.strings */; };
+		0087A92A17EACF5400F143D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0087A92917EACF5400F143D4 /* main.m */; };
+		0087A92E17EACF5400F143D4 /* BIDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0087A92D17EACF5400F143D4 /* BIDAppDelegate.m */; };
+		0087A93117EACF5400F143D4 /* Core_Data_Persistence.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0087A92F17EACF5400F143D4 /* Core_Data_Persistence.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0087A91717EACF5400F143D4 /* Core Data Persistence.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Core Data Persistence.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0087A91B17EACF5400F143D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0087A91D17EACF5400F143D4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0087A91F17EACF5400F143D4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0087A92117EACF5400F143D4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		0087A92517EACF5400F143D4 /* Core Data Persistence-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Core Data Persistence-Info.plist"; sourceTree = "<group>"; };
+		0087A92717EACF5400F143D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0087A92917EACF5400F143D4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0087A92B17EACF5400F143D4 /* Core Data Persistence-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Core Data Persistence-Prefix.pch"; sourceTree = "<group>"; };
+		0087A92C17EACF5400F143D4 /* BIDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDAppDelegate.h; sourceTree = "<group>"; };
+		0087A92D17EACF5400F143D4 /* BIDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDAppDelegate.m; sourceTree = "<group>"; };
+		0087A93017EACF5400F143D4 /* Core_Data_Persistence.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Core_Data_Persistence.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0087A91417EACF5400F143D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0087A91C17EACF5400F143D4 /* UIKit.framework in Frameworks */,
+				0087A91E17EACF5400F143D4 /* Foundation.framework in Frameworks */,
+				0087A92017EACF5400F143D4 /* CoreGraphics.framework in Frameworks */,
+				0087A92217EACF5400F143D4 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0087A90C17EACF5400F143D4 = {
+			isa = PBXGroup;
+			children = (
+				0087A92317EACF5400F143D4 /* Core Data Persistence */,
+				0087A91A17EACF5400F143D4 /* Frameworks */,
+				0087A91817EACF5400F143D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0087A91817EACF5400F143D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0087A91717EACF5400F143D4 /* Core Data Persistence.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0087A91A17EACF5400F143D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0087A91B17EACF5400F143D4 /* UIKit.framework */,
+				0087A91D17EACF5400F143D4 /* Foundation.framework */,
+				0087A91F17EACF5400F143D4 /* CoreGraphics.framework */,
+				0087A92117EACF5400F143D4 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0087A92317EACF5400F143D4 /* Core Data Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				0087A92C17EACF5400F143D4 /* BIDAppDelegate.h */,
+				0087A92D17EACF5400F143D4 /* BIDAppDelegate.m */,
+				0087A92F17EACF5400F143D4 /* Core_Data_Persistence.xcdatamodeld */,
+				0087A92417EACF5400F143D4 /* Supporting Files */,
+			);
+			path = "Core Data Persistence";
+			sourceTree = "<group>";
+		};
+		0087A92417EACF5400F143D4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0087A92517EACF5400F143D4 /* Core Data Persistence-Info.plist */,
+				0087A92617EACF5400F143D4 /* InfoPlist.strings */,
+				0087A92917EACF5400F143D4 /* main.m */,
+				0087A92B17EACF5400F143D4 /* Core Data Persistence-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0087A91617EACF5400F143D4 /* Core Data Persistence */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0087A93417EACF5400F143D4 /* Build configuration list for PBXNativeTarget "Core Data Persistence" */;
+			buildPhases = (
+				0087A91317EACF5400F143D4 /* Sources */,
+				0087A91417EACF5400F143D4 /* Frameworks */,
+				0087A91517EACF5400F143D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Core Data Persistence";
+			productName = "Core Data Persistence";
+			productReference = 0087A91717EACF5400F143D4 /* Core Data Persistence.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0087A90E17EACF5400F143D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 0087A91117EACF5400F143D4 /* Build configuration list for PBXProject "Core Data Persistence" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0087A90C17EACF5400F143D4;
+			productRefGroup = 0087A91817EACF5400F143D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0087A91617EACF5400F143D4 /* Core Data Persistence */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0087A91517EACF5400F143D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0087A92817EACF5400F143D4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0087A91317EACF5400F143D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0087A92A17EACF5400F143D4 /* main.m in Sources */,
+				0087A92E17EACF5400F143D4 /* BIDAppDelegate.m in Sources */,
+				0087A93117EACF5400F143D4 /* Core_Data_Persistence.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0087A92617EACF5400F143D4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0087A92717EACF5400F143D4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0087A93217EACF5400F143D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0087A93317EACF5400F143D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0087A93517EACF5400F143D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Core Data Persistence/Core Data Persistence-Prefix.pch";
+				INFOPLIST_FILE = "Core Data Persistence/Core Data Persistence-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0087A93617EACF5400F143D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Core Data Persistence/Core Data Persistence-Prefix.pch";
+				INFOPLIST_FILE = "Core Data Persistence/Core Data Persistence-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0087A91117EACF5400F143D4 /* Build configuration list for PBXProject "Core Data Persistence" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0087A93217EACF5400F143D4 /* Debug */,
+				0087A93317EACF5400F143D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0087A93417EACF5400F143D4 /* Build configuration list for PBXNativeTarget "Core Data Persistence" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0087A93517EACF5400F143D4 /* Debug */,
+				0087A93617EACF5400F143D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0087A92F17EACF5400F143D4 /* Core_Data_Persistence.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0087A93017EACF5400F143D4 /* Core_Data_Persistence.xcdatamodel */,
+			);
+			currentVersion = 0087A93017EACF5400F143D4 /* Core_Data_Persistence.xcdatamodel */;
+			path = Core_Data_Persistence.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 0087A90E17EACF5400F143D4 /* Project object */;
+}
