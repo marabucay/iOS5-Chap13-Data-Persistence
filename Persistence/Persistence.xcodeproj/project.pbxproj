@@ -16,6 +16,7 @@
 		0087A8FE17EABA5D00F143D4 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0087A8FC17EABA5D00F143D4 /* MainStoryboard.storyboard */; };
 		0087A90117EABA5D00F143D4 /* BIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0087A90017EABA5D00F143D4 /* BIDViewController.m */; };
 		0087A90917EAC2A600F143D4 /* BIDFourLines.m in Sources */ = {isa = PBXBuildFile; fileRef = 0087A90817EAC2A500F143D4 /* BIDFourLines.m */; };
+		0087A90B17EACC2300F143D4 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0087A90A17EACC2300F143D4 /* libsqlite3.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		0087A90017EABA5D00F143D4 /* BIDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDViewController.m; sourceTree = "<group>"; };
 		0087A90717EAC2A500F143D4 /* BIDFourLines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDFourLines.h; sourceTree = "<group>"; };
 		0087A90817EAC2A500F143D4 /* BIDFourLines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDFourLines.m; sourceTree = "<group>"; };
+		0087A90A17EACC2300F143D4 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0087A90B17EACC2300F143D4 /* libsqlite3.dylib in Frameworks */,
 				0087A8EB17EABA5D00F143D4 /* UIKit.framework in Frameworks */,
 				0087A8ED17EABA5D00F143D4 /* Foundation.framework in Frameworks */,
 				0087A8EF17EABA5D00F143D4 /* CoreGraphics.framework in Frameworks */,
@@ -70,6 +73,7 @@
 		0087A8E917EABA5D00F143D4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0087A90A17EACC2300F143D4 /* libsqlite3.dylib */,
 				0087A8EA17EABA5D00F143D4 /* UIKit.framework */,
 				0087A8EC17EABA5D00F143D4 /* Foundation.framework */,
 				0087A8EE17EABA5D00F143D4 /* CoreGraphics.framework */,
